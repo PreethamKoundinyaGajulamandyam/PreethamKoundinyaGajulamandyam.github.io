@@ -138,7 +138,7 @@
       width: 4px;
       background: var(--primary);
       top: 0;
-      bottom: 0;
+      height: 100%;
       transform: translateX(-50%);
     }
     .item {
@@ -195,7 +195,7 @@
     .back.visible { opacity: 1; visibility: visible; }
     @media (max-width: 768px) {
       .item { width: 100% !important; left: 0 !important; }
-      .timeline::after { left: 20px; }
+      .timeline::after { left: 20px; height: calc(100% - 20px); }
     }
     @keyframes fadeUp { to { opacity: 1; transform: translateY(0);} }
     @keyframes fadeDown { to { opacity: 1; transform: translateY(0);} }
@@ -204,7 +204,7 @@
 <body>
   <header>
     <h1>Preetham Koundinya Gajulamandyam</h1>
-    <p>CPU Verification Engineer | OctoNyteCPU Project</p>
+    <p>CPU Testing Engineer | OctoNyteCPU Project</p>
     <div class="tech-tags">
       <span class="tag">RISC-V</span>
       <span class="tag">Chisel</span>
