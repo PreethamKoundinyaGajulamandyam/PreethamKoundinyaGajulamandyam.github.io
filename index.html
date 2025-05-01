@@ -229,16 +229,49 @@
     <section id="prs">
       <h2>Pull Requests</h2>
       <ul>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/22" target="_blank">#22 – Initial Verilator testbench files</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/28" target="_blank">#28 – RISCVAdderSubtractor32 testbench</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/59" target="_blank">#59 – ALU32 testbench implementation</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/93" target="_blank">#93 – ADDI instruction verification</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/108" target="_blank">#108 – LoadUnit, StoreUnit & Adder/Subtractor verification</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/109" target="_blank">#109 – SP25 Sprint 4 contributions</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/116" target="_blank">#116 – BranchUnit testbench</a></li>
-        <li><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/123" target="_blank">#123 – verify_branch testbench</a></li>
+        <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/22" target="_blank">#22 – Initial Verilator testbench files</a></h3>
+    <p>Set up the Verilator simulation environment and initial testbench structure using C++. This established the foundation for verifying CPU modules throughout the project.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/28" target="_blank">#28 – RISCVAdderSubtractor32 testbench</a></h3>
+    <p>Developed test cases for RISCVAdderSubtractor32, validating arithmetic correctness across signed/unsigned operations. Confirmed addition and subtraction behavior under all edge conditions.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/59" target="_blank">#59 – ALU32 testbench implementation</a></h3>
+    <p>Implemented directed tests for ALU32, including all supported operations. Verified outputs against expected values and ensured logic coverage for shift, logic, and arithmetic opcodes.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/93" target="_blank">#93 – ADDI instruction verification</a></h3>
+    <p>Created a testbench to validate ADDI instruction functionality, ensuring proper sign-extension, immediate decoding, and operand behavior according to the RV32I ISA spec.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/108" target="_blank">#108 – LoadUnit, StoreUnit & Adder/Subtractor verification</a></h3>
+    <p>Directed and randomized testing for LoadUnit and StoreUnit with alignment corner cases and sign-extension bugs. Also included behavioral testing for RISCVAdderSubtractor functionality.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/109" target="_blank">#109 – SP25 Sprint 4 contributions</a></h3>
+    <p>Submitted final sprint contributions including CI integration, coverage review, and documentation for completed verification modules. Helped stabilize the pipeline before project wrap-up.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/116" target="_blank">#116 – BranchUnit testbench</a></h3>
+    <p>Designed a directed testbench for the BranchUnit, validating correct behavior across funct3 branch types. Ensured expected branch_taken outputs were accurate under all tested scenarios.</p>
+  </div>
+
+  <div style="margin-bottom: 1.5rem;">
+    <h3><a href="https://github.com/Rivier-Computer-Science/OctoNyte/pull/123" target="_blank">#123 – verify_branch testbench</a></h3>
+    <p>Submitted improved BranchUnit testbench with refined comparison logic, assertions, and cleaner logging. This test served as the final CI-verified check for branching correctness.</p>
+  </div>li>
       </ul>
     </section>
+  
+
     <section id="highlights">
       <h2>Highlights</h2>
       <figure>
