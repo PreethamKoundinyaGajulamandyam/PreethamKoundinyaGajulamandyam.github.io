@@ -300,6 +300,71 @@
     </section>
   </main>
   <div class="back" id="toTop"><i class="fas fa-arrow-up"></i></div>
+  <!-- truncated above for brevity -->
+<section id="sprints">
+  <h2>Sprint Timeline</h2>
+  <div class="timeline">
+    <div class="item"><div class="content"><h3>Sprint 1</h3><p>Initial RTL setup & verification framework.</p><p><i class="fas fa-calendar-alt"></i> Jan 15 – Feb 5</p></div></div>
+    <div class="item"><div class="content"><h3>Sprint 2</h3><p>LoadUnit directed testbench + bug discovery.</p><p><i class="fas fa-calendar-alt"></i> Feb 6 – Feb 26 </p></div></div>
+    <div class="item"><div class="content"><h3>Sprint 3</h3><p>StoreUnit random tests & sign-extension fix.</p><p><i class="fas fa-calendar-alt"></i> Feb 27 - Mar 27 </p></div></div>
+    <div class="item"><div class="content"><h3>Sprint 4</h3><p>BranchUnit testbench, functional verification for BEQ/BNE/BLT, and CI pipeline integration. Finalized regression logging and automation workflows.</p><p><i class="fas fa-calendar-alt"></i> Mar 28 - April 23 </p></div></div>
+  </div>
+</section>
+
+<section id="user-stories">
+  <h2>User Stories & Key Tasks</h2>
+  <ul>
+    <li>Developed Verilator-based testbenches for ALU, LoadUnit, StoreUnit, and BranchUnit covering both directed and randomized scenarios.</li>
+    <li>Implemented functional tests for BranchUnit (`funct3`: BEQ, BNE, BLT, BGE, etc.) ensuring control flow correctness.</li>
+    <li>Automated simulation runs with GitHub Actions CI pipeline for every commit.</li>
+    <li>Captured waveforms and logs to investigate timing bugs and sign-extension issues.</li>
+    <li>Collaborated with design team to triage and resolve logic/timing errors found during testing.</li>
+    <li>Documented test frameworks, coverage methodology, and results for handoff.</li>
+  </ul>
+</section>
+
+<section id="sprint-summary">
+  <h2>Sprint Objectives Summary</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Sprint</th>
+        <th>Objective</th>
+        <th>Module Focus</th>
+        <th>Deliverables</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Initial setup & baseline simulation</td>
+        <td>ALU</td>
+        <td>Testbench framework, directed tests</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Memory testing and edge-case logic</td>
+        <td>LoadUnit</td>
+        <td>Randomized tests, waveform validation</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Write-side memory and hazards</td>
+        <td>StoreUnit</td>
+        <td>Collision handling, sign-extension fixes</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Control flow validation + CI integration</td>
+        <td>BranchUnit</td>
+        <td>Branch testbench, CI logs, bug resolution</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<!-- continue to footer as is -->
+
+  
   <footer>
     <p>© 2025 Preetham Koundinya Gajulamandyam • <a href="https://github.com/PreethamKoundinyaGajulamandyam" target="_blank">GitHub Profile</a></p>
   </footer>
